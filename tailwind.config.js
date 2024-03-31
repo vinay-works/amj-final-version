@@ -30,7 +30,7 @@ export default {
         modernGallery: ['Modern Gallery', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-img': "url('./src/assets/images/homeBaner2.webp')",
+        'hero-img': "url('./src/assets/images/company.jpg')",
       },
       animation: {
         'scale-link': 'link-expand 0.25s ease',

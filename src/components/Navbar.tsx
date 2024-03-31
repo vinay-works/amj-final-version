@@ -121,7 +121,7 @@ const Navbar = () => {
         <div className='self-center place-self-end'>
           {/* ------Buttons-On-Lg-Device------ */}
           <div className='hidden lg:block '>
-            <Button variant='secondary'>Book a Call</Button>
+            <Button variant='primary'>Book a Call</Button>
           </div>
 
           {/* ------Mobile-Menu-Overlay------ */}
