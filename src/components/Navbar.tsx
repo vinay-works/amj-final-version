@@ -41,8 +41,18 @@ const Navbar = () => {
     <header
       className={`w-full h-14 bg-white lg:h-16 z-10 fixed top-0 border-shadow flex items-center justify-center p-3 xl:p-0`}
     >
-      <nav className='w-full h-full container mx-auto grid grid-cols-2 lg:grid-cols-3 lg:place-items-center'>
-        <div className='hidden lg:flex items-center gap-x-6 place-self-start self-center'>
+      <nav className='w-full h-full container mx-auto grid grid-cols-2 lg:grid-cols-3 place-items-center'>
+        {/* -----LOGO----- */}
+        <Link
+          to={'/'}
+          className='text-2xl font-modernGallery font-bold inline-flex gap-x-1 mr-auto'
+        >
+          AmjTeam
+          <p className='text-3xl font-montserrat font-bold text-goldenRod'>.</p>
+        </Link>
+
+        {/* -----Desktop-Menu----- */}
+        <div className='hidden lg:flex items-center gap-x-6 place-self-center self-center'>
           <NavLink
             to={'/'}
             className={({ isActive }) =>
@@ -109,14 +119,6 @@ const Navbar = () => {
             Blogs
           </NavLink>
         </div>
-
-        <Link
-          to={'/'}
-          className='text-2xl font-modernGallery font-bold inline-flex gap-x-1 self-center'
-        >
-          AmjTeam
-          <p className='text-3xl font-montserrat font-bold text-goldenRod'>.</p>
-        </Link>
 
         <div className='self-center place-self-end'>
           {/* ------Buttons-On-Lg-Device------ */}
