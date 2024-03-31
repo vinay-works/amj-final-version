@@ -110,7 +110,11 @@ const Navbar = () => {
           >
             Contact
           </NavLink>
+          <a href="https://yug-amj-team.typeflo.io/">
+            TestBlog
+          </a>
           <NavLink
+            // ref='https://yug-amj-team.typeflo.io/'
             to={'/blogs'}
             className={({ isActive }) =>
               isActive ? isActivePage.active : isActivePage.inActive
@@ -128,17 +132,15 @@ const Navbar = () => {
 
           {/* ------Mobile-Menu-Overlay------ */}
           <div
-            className={`w-full h-[100vh] lg:hidden ${
-              isOpen ? 'opacity-100 block' : 'opacity-0 hidden'
-            } overlay absolute top-0 left-0 right-0 bottom-0 transition-all duration-500 ease-[cubic-bezier(0.95,0.05,0.795,0.035)]`}
+            className={`w-full h-[100vh] lg:hidden ${isOpen ? 'opacity-100 block' : 'opacity-0 hidden'
+              } overlay absolute top-0 left-0 right-0 bottom-0 transition-all duration-500 ease-[cubic-bezier(0.95,0.05,0.795,0.035)]`}
             onClick={handleClick}
           ></div>
 
           {/* ------Mobile-Menu------ */}
           <div
-            className={`w-[90%] sm:w-[65%] p-10 sm:p-20 h-[100vh] lg:hidden bg-white shadow-2xl absolute right-0 top-0 z-20 transition-all duration-500 ease-in-out ${
-              isOpen ? 'translate-x-0' : 'translate-x-full'
-            }`}
+            className={`w-[90%] sm:w-[65%] p-10 sm:p-20 h-[100vh] lg:hidden bg-white shadow-2xl absolute right-0 top-0 z-20 transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'
+              }`}
           >
             <div className='w-full h-full flex flex-col items-start justify-between'>
               {/* ---Links--- */}
@@ -185,9 +187,8 @@ const Navbar = () => {
 
                     {/* ---More-Services--- */}
                     <div
-                      className={`flex flex-col gap-y-2 ml-3 transition-all duration-200 ease-in-out ${
-                        isServicesExpand ? 'h-auto mt-2' : 'h-0'
-                      }`}
+                      className={`flex flex-col gap-y-2 ml-3 transition-all duration-200 ease-in-out ${isServicesExpand ? 'h-auto mt-2' : 'h-0'
+                        }`}
                     >
                       <NavLink
                         to={'/services/it-solutions'}
@@ -238,18 +239,16 @@ const Navbar = () => {
             <span
               className={`
             bg-black block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm group-hover:opacity-50 ${
-                      isOpen ? 'rotate-45 translate-y-0.5' : '-translate-y-0.5'
-                    }
+                    h-0.5 w-6 rounded-sm group-hover:opacity-50 ${isOpen ? 'rotate-45 translate-y-0.5' : '-translate-y-0.5'
+                }
             `}
             ></span>
             <span
               className={`bg-black block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm group-hover:opacity-50 ${
-                      isOpen
-                        ? '-rotate-45 translate-y-0.5'
-                        : 'translate-y-0.5 translate-x-1'
-                    }`}
+                    h-0.5 w-6 rounded-sm group-hover:opacity-50 ${isOpen
+                  ? '-rotate-45 translate-y-0.5'
+                  : 'translate-y-0.5 translate-x-1'
+                }`}
             ></span>
           </button>
         </div>
