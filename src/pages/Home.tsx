@@ -28,7 +28,9 @@ const Home = () => {
               Unleashing Growth, Efficiency, and Success
             </p>
 
-            <Button className='primary'>Contact Us</Button>
+            <Link to={'/contact'}>
+              <Button className='primary'>Contact Us</Button>
+            </Link>
           </div>
         </div>
       </section>
