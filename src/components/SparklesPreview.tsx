@@ -1,4 +1,3 @@
-import React from "react";
 import { SparklesCore } from "./sparkles";
 
 const SparklesPreview = () => {
@@ -12,8 +11,8 @@ const SparklesPreview = () => {
           <p className="mt-2 text-lg text-white">Crafting premium experiences for our clients.</p>
         </div>
       </div>
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
-        YUGAMJ TEAM {/* Changed the text here */}
+      <h1 className="md:text-7xl text-3xl lg:text-9xl font-modernGallery font-bold text-center text-white relative z-20">
+        YugAmj Team {/* Changed the text here */}
       </h1>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
