@@ -47,4 +47,17 @@ body,
     background-position: center;
     background-size: cover;
   }
+
+  .service-1 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        121deg,
+        rgba(255, 255, 255, 1) 36%,
+        rgba(255, 255, 255, 0.258140756302521) 100%
+      ),
+      url('./assets/images/it-solutions.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
