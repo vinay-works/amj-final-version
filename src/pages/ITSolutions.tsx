@@ -247,7 +247,7 @@ export default function Landing() {
         </section>
 
 
-        <section className="pt-20 pb-48">
+        <section className="pt-20 pb-48 flex flex-wrap justify-center">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -255,13 +255,13 @@ export default function Landing() {
                   Here are our heroes
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                "Meet the champions of innovation, shaping the future with their expertise and dedication. Our heroes, tirelessly crafting solutions to empower your success."
+                  "Meet the champions of innovation, shaping the future with their expertise and dedication. Our heroes, tirelessly crafting solutions to empower your success."
                 </p>
               </div>
             </div>
 
 
-            <div className="flex  ">
+            <div className="flex flex-wrap justify-center">
               <div className="w-full  shadow-2xl md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
@@ -275,97 +275,11 @@ export default function Landing() {
                       Ryan Tompson
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    IT-Expert
+                      IT-Expert
                     </p>
                     <p>Discription</p>
                     <div className='mt-8'><hr /></div>
-                    
-                    <div className="mt-6 flex justify-center">
-                      <button
-                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <Twitter />
-                      </button>
-                      <button
-                        className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <Facebook />
-                      </button>
-                      <button
-                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <Linkedin />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-
-              <div className="w-full  shadow-2xl md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">
-                      Ryan Tompson
-                    </h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    IT-Expert
-                    </p>
-                    <p>Discription</p>
-                    <div className='mt-8'><hr /></div>
-                    
-                    <div className="mt-6 flex justify-center">
-                      <button
-                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <Twitter />
-                      </button>
-                      <button
-                        className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <Facebook />
-                      </button>
-                      <button
-                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <Linkedin />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="w-full  shadow-2xl md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">
-                      Ryan Tompson
-                    </h5>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    IT-Expert
-                    </p>
-                    <p>Discription</p>
-                    <div className='mt-8'><hr /></div>
-                    
                     <div className="mt-6 flex justify-center">
                       <button
                         className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -408,7 +322,93 @@ export default function Landing() {
                     </p>
                     <p>Discription</p>
                     <div className='mt-8'><hr /></div>
-                    
+
+                    <div className="mt-6 flex justify-center">
+                      <button
+                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <Twitter />
+                      </button>
+                      <button
+                        className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <Facebook />
+                      </button>
+                      <button
+                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <Linkedin />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="w-full  shadow-2xl md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
+                    className="shadow-lg rounded-full max-w-full mx-auto"
+                    style={{ maxWidth: "120px" }}
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">
+                      Ryan Tompson
+                    </h5>
+                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                      IT-Expert
+                    </p>
+                    <p>Discription</p>
+                    <div className='mt-8'><hr /></div>
+
+                    <div className="mt-6 flex justify-center">
+                      <button
+                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <Twitter />
+                      </button>
+                      <button
+                        className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <Facebook />
+                      </button>
+                      <button
+                        className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <Linkedin />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="w-full  shadow-2xl md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 ">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
+                    className="shadow-lg rounded-full max-w-full mx-auto"
+                    style={{ maxWidth: "120px" }}
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">
+                      Ryan Tompson
+                    </h5>
+                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                      IT-Expert
+                    </p>
+                    <p>Discription</p>
+                    <div className='mt-8'><hr /></div>
+
                     <div className="mt-6 flex justify-center">
                       <button
                         className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-2 mb-8"
@@ -436,8 +436,7 @@ export default function Landing() {
           </div>
         </section>
 
-            {/* Achievements */}
-        <section className="pb-20 relative block bg-gray-900">
+        <section className="flex pb-20 relative block bg-gray-900 ">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
@@ -459,21 +458,25 @@ export default function Landing() {
             </svg>
           </div>
 
-          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
+
+        {/* Achievements */}
+
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64 mt-8">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-black">
-                🏆 Achievements
+                  🏆 Achievements
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident adipisci nulla quos tenetur cupiditate? Animi id vero.
                 </p>
               </div>
             </div>
+
             <div className="flex flex-wrap  mt-12 justify-center">
-              <div className="w-full rounded-2xl shadow-slate-700	 shadow-2xl lg:w-3/12 px-4 text-center">
+              <div className="w-full rounded-2xl shadow-slate-700	 shadow-2xl lg:w-3/12 px-4 text-center mt-12">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <img
+                  <img
                     alt="..."
                     src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
                     className="shadow-lg rounded-full max-w-full mx-auto"
@@ -482,16 +485,16 @@ export default function Landing() {
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-black">
-                Achievement 1
+                  Achievement 1
                 </h6>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ipsum ut voluptatibus saepe. Nobis debitis incidunt. 
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ipsum ut voluptatibus saepe. Nobis debitis incidunt.
                 </p>
               </div>
 
-              <div className="w-full  rounded-2xl shadow-slate-700	shadow-2xl lg:w-3/12 px-4 text-center">
+              <div className="w-full  rounded-2xl shadow-slate-700	shadow-2xl lg:w-3/12 px-4 text-center mt-12">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <img
+                  <img
                     alt="..."
                     src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
                     className="shadow-lg rounded-full max-w-full mx-auto"
@@ -500,23 +503,25 @@ export default function Landing() {
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-black">
-                Achievement 2
+                  Achievement 2
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit molestias esse reiciendis quo nesciunt laboriosam quam est aut. 
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit molestias esse reiciendis quo nesciunt laboriosam quam est aut.
                 </p>
               </div>
-              <div className="w-full rounded-2xl shadow-slate-700 shadow-2xl lg:w-3/12 px-4 text-center">
+
+
+              <div className="w-full rounded-2xl shadow-slate-700 shadow-2xl lg:w-3/12 px-4 text-center mt-12">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <img
+                  <img
                     alt="..."
                     src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: "120px" }}
                   />                  <i className="fas fa-lightbulb text-xl"></i>
                 </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
+                <h5 className="text-xl mt-5 font-semibold text-Black">
+                  Achievement 3
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
                   Some quick example text to build on the card title and make up
@@ -528,8 +533,8 @@ export default function Landing() {
         </section>
 
 
-        
-        <section className="relative block py-24 lg:pt-0 bg-gray-900">
+
+        <section className="relative block py-24 lg:pt-0 bg-gray-900 mt-8">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
