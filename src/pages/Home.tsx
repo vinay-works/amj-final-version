@@ -180,7 +180,7 @@ const Home = () => {
           </div>
 
           <div className='w-full flex items-center justify-center'>
-            <Link to={'/services'}>
+            <Link to={'/services/it-solutions'}>
               <Button variant='primary'>More Services</Button>
             </Link>
           </div>
