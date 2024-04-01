@@ -6,12 +6,9 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <main className=''>
+      <main>
         <Outlet />
       </main>
-      <div className='w-full h-[30vh] bg-white flex items-center justify-center'>
-        <h1>Testimonials</h1>
-      </div>
       <Footer />
     </>
   );

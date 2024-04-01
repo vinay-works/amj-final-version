@@ -18,10 +18,10 @@ const Home = () => {
             </p>
 
             <p className='text-2xl md:text-4xl lg:text-5xl lg:w-[60%] font-medium mb-1'>
-              <span className='font-bold'>Empowering</span> your Business with
+              We <span className='font-bold'>Create</span>
             </p>
             <p className='text-2xl md:text-4xl lg:text-5xl lg:w-[60%] font-medium mb-1'>
-              Innovative <span className='font-bold'>IT Solutions</span>
+              <span className='font-bold'>Digital</span> Solutions
             </p>
 
             <p className='text-black text-sm md:text-lg mb-3'>
