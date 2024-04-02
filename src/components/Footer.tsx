@@ -17,7 +17,7 @@ export default function Footer() {
   };
   return (
     <footer className='w-full h-auto bg-black text-white'>
-      <div className='container mx-auto mb-16 border-t py-16 font-montserrat grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center lg:items-start gap-7'>
+      <div className='container mx-auto mb-16 py-16 font-montserrat grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center lg:items-start gap-7'>
         {/* ---Company--- */}
         <div className='flex flex-col'>
           <Link
