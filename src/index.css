@@ -61,6 +61,20 @@ body,
     background-size: cover;
   }
 
+  .hr-bg{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        163deg,
+        rgba(0, 0, 0, 0.6) 100%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url('./assets/images/hr-solutions.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+
 
 
   .service-1 {

@@ -1,4 +1,3 @@
-import React from 'react';
 import SEOIcon from '../assets/images/seo.png'; 
 import PaidMediaIcon from '../assets/images/media.png';
 import SocialMediaIcon from '../assets/images/social-media (1).png';
