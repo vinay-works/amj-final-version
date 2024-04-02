@@ -72,14 +72,7 @@ const Navbar = () => {
           {/* ------Services Links DropDown------ */}
           <div className='relative group'>
             <span className='h-full inline-flex items-center gap-x-1'>
-              <NavLink
-                to={'/services/it-solutions'}
-                className={({ isActive }) =>
-                  isActive ? isActivePage.active : isActivePage.inActive
-                }
-              >
-                Services
-              </NavLink>
+              <p className={isActivePage.inActive}>Services</p>
               <ChevronDown className='w-4 group-hover:rotate-180 transition-all duration-200 ease-in' />
             </span>
             <div className='absolute w-max bg-white shadow-lg p-4 rounded-md border border-lightBorder -left-2 top-8 hidden group-hover:flex flex-col justify-center gap-y-2'>
@@ -98,6 +91,14 @@ const Navbar = () => {
                 }
               >
                 Internships
+              </NavLink>
+              <NavLink
+                to={'/services/hr-solutions'}
+                className={({ isActive }) =>
+                  isActive ? isActivePage.active : isActivePage.inActive
+                }
+              >
+                HR Solutions
               </NavLink>
             </div>
           </div>
@@ -160,16 +161,7 @@ const Navbar = () => {
                   </NavLink>
                   <div className='w-full h-auto overflow-hidden'>
                     <div className='w-full flex justify-between items-center'>
-                      <NavLink
-                        to={'/services/it-solutions'}
-                        className={({ isActive }) =>
-                          isActive
-                            ? navLinksStyles.active
-                            : navLinksStyles.inActive
-                        }
-                      >
-                        Services
-                      </NavLink>
+                      <p className={navLinksStyles.inActive}>Services</p>
 
                       <button
                         className=' p-2 border rounded-full border-lightBorder'
@@ -193,6 +185,9 @@ const Navbar = () => {
                       </NavLink>
                       <NavLink to={'/services/internships'}>
                         Internships
+                      </NavLink>
+                      <NavLink to={'/services/hr-solutions'}>
+                        HR Solutions
                       </NavLink>
                     </div>
                   </div>
