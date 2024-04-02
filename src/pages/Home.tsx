@@ -13,7 +13,7 @@ const Home = () => {
       <section className='w-full h-[65vh] md:h-[70vh] lg:h-[80vh] bg-hero-img bg-grad flex items-center justify-center'>
         <div className='w-full h-full container mx-auto p-5 flex items-center'>
           <div className='w-full flex flex-col items-start lg:gap-y-2'>
-            <p className='text-xs md:text-md lg:text-[18px] mb-2 bg-grainBrown p-1 rounded-3xl px-3 lg:p-2'>
+            <p className='font-plus-jaskart text-xs md:text-md lg:text-[18px] mb-2 bg-grainBrown p-1 rounded-3xl px-3 lg:p-2'>
               Hi There, Welcome To AmjTeam
             </p>
 

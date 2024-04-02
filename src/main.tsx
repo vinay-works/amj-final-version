@@ -10,6 +10,7 @@ import Blogs from './pages/Blogs';
 import Layout from './Layout';
 import ITSolutions from './pages/ITSolutions';
 import Internships from './pages/Internships';
+import DigitalMarketing from './pages/DigitalMarketing';
 
 const routes = createBrowserRouter([
   {
@@ -47,6 +48,11 @@ const routes = createBrowserRouter([
         element: <Internships />,
         errorElement: <RouteError />,
       },
+      {
+        path: '/services/digital-marketing',
+        element: <DigitalMarketing />,
+        errorElement: <RouteError />,
+      }
     ],
   },
 ]);

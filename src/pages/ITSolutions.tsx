@@ -1,6 +1,3 @@
-
-//import Navbar from "components/Navbar.js";
-//import Footer from "components/Footer.js";
 import { Facebook } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
@@ -459,7 +456,7 @@ export default function Landing() {
           </div>
 
 
-        {/* Achievements */}
+          {/* Achievements */}
 
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64 mt-8">
             <div className="flex flex-wrap text-center justify-center">

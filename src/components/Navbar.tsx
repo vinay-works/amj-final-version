@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`w-full h-14 bg-white lg:h-16 z-10 fixed top-0 border-shadow flex items-center justify-center p-3 xl:p-0`}
+      className={`w-full h-14 bg-white bg-opacity-90 lg:h-16 z-10 fixed top-0 border-shadow flex items-center justify-center p-3 xl:p-0`}
     >
       <nav className='w-full h-full container mx-auto grid grid-cols-2 place-items-center'>
         {/* -----LOGO----- */}
@@ -98,6 +98,14 @@ const Navbar = () => {
                 }
               >
                 Internships
+              </NavLink>
+              <NavLink
+              to={'/services/digital-marketing'}
+              className={({ isActive }) =>
+                  isActive ? isActivePage.active : isActivePage.inActive
+                }
+              >
+                Digital Marketing
               </NavLink>
             </div>
           </div>

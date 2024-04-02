@@ -1,6 +1,7 @@
 import React from "react";
 import { appTechList } from "../utils";
 import Marquee from "react-fast-marquee";
+import { Twitter } from "lucide-react";
 
 const FeaturesSection: React.FC = () => {
   return (
@@ -28,9 +29,10 @@ const FeaturesSection: React.FC = () => {
             </p>
           </div>
         </div>
-
-        {/* Why choose Amj */}
       </section>
+
+      {/* Why choose Amj */}
+
       <div className="bg-black">
         <section
           id="features"
@@ -207,13 +209,19 @@ const FeaturesSection: React.FC = () => {
                     href="#"
                     className="text-blue-500 hover:text-blue-700 mx-3"
                   >
-                    <svg
+                    <button
+                      className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <Twitter />
+                    </button>
+                    {/* <svg
                       className="w-6 h-6 fill-current text-black border border-black rounded-full hover:text-blue-500 hover:border-blue-500"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                     >
                       <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 2.02-2.31-.88.49-1.85.8-2.9 1.1-.88-.49-1.56-1.03-2.02-2.31.9-.75 1.6-1.5 2.02-2.31-.48-.88-.88-1.6-1.3-2.31 1.12-.49 2.02-.88 2.75-1.31-.78.49-1.52-1.1-2.02-2.31-.48-.88-.88-1.6-1.3-2.31 1_1z" />
-                    </svg>
+                    </svg> */}
                   </a>
                   <a
                     href="#"
