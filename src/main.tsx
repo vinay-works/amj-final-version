@@ -10,6 +10,7 @@ import Blogs from './pages/Blogs';
 import Layout from './Layout';
 import ITSolutions from './pages/ITSolutions';
 import Internships from './pages/Internships';
+import HRSolutions from './pages/HRSolutions';
 
 const routes = createBrowserRouter([
   {
@@ -45,6 +46,11 @@ const routes = createBrowserRouter([
       {
         path: '/services/internships',
         element: <Internships />,
+        errorElement: <RouteError />,
+      },
+      {
+        path: '/services/hr-solutions',
+        element: <HRSolutions />,
         errorElement: <RouteError />,
       },
     ],

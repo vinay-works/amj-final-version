@@ -52,3 +52,42 @@ export const appTechList = [
     name: 'Java',
   },
 ];
+
+export const HRSolutionsFAQ = [
+  {
+    id: 1,
+    question: 'Lorem ipsum dolor sit amet.',
+    answer:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum eius porro architecto libero pariatur dignissimos quasi facilis?',
+  },
+  {
+    id: 2,
+    question: 'Lorem ipsum dolor sit amet.',
+    answer:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum eius porro architecto libero pariatur dignissimos quasi facilis?',
+  },
+  {
+    id: 3,
+    question: 'Lorem ipsum dolor sit amet.',
+    answer:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum eius porro architecto libero pariatur dignissimos quasi facilis?',
+  },
+  {
+    id: 4,
+    question: 'Lorem ipsum dolor sit amet.',
+    answer:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum eius porro architecto libero pariatur dignissimos quasi facilis?',
+  },
+  {
+    id: 5,
+    question: 'Lorem ipsum dolor sit amet.',
+    answer:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum eius porro architecto libero pariatur dignissimos quasi facilis?',
+  },
+  {
+    id: 6,
+    question: 'Lorem ipsum dolor sit amet.',
+    answer:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. At illum eius porro architecto libero pariatur dignissimos quasi facilis?',
+  },
+];
