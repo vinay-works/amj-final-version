@@ -9,7 +9,7 @@ import { HRSolutionsFAQ } from '../utils';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
 
-export default function HRSolutions() {
+export default function DigitalMarketing() {
   return (
     <>
       <section className='w-full h-[50vh] md:h-[60vh] lg:h-[70vh] hr-bg flex items-center justify-center'>
@@ -212,3 +212,4 @@ export default function HRSolutions() {
     </>
   );
 }
+

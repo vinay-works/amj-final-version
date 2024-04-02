@@ -92,6 +92,22 @@ const Navbar = () => {
               >
                 Internships
               </NavLink>
+              <NavLink
+                to={'/services/digital-marketing'}
+                className={({ isActive }) =>
+                  isActive ? isActivePage.active : isActivePage.inActive
+                }
+              >
+                Digital Marketing
+              </NavLink>
+              <NavLink
+                to={'/services/hr-solutions'}
+                className={({ isActive }) =>
+                  isActive ? isActivePage.active : isActivePage.inActive
+                }
+              >
+                HR Solutions
+              </NavLink>
             </div>
           </div>
           <NavLink
