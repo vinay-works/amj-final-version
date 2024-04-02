@@ -8,7 +8,7 @@ const ContactUs = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-    const handleSubmit = (event: React.FormEvent) => {
+  const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     // Here you can add your logic to handle form submission, such as sending the data to a server.
     // For simplicity, let's just log the form data for now.
