@@ -76,6 +76,7 @@ const Home = () => {
           </div>
 
           {/* ------Service-Cards------ */}
+          
           <div className='py-8 md:py-10 lg:py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
             <div className='group h-[350px] w-full [perspective:1000px]'>
               <div className='relative w-full h-full rounded-xl shadow-xl border border-lightGray transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
